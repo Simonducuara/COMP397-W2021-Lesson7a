@@ -24,15 +24,7 @@ public class HealthBarScreenSpaceController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            TakeDamage(10);
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Reset();
-        }
+        
     }
 
     public void TakeDamage(int damage)
